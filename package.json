@@ -2,9 +2,11 @@
   "name": "practice-14",
   "private": true,
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "format-code": "prettier --check --write \"public/**\""
   },
   "devDependencies": {
-    "live-server": "^1.1.0"
+    "live-server": "^1.1.0",
+    "prettier": "^2.8.4"
   }
 }

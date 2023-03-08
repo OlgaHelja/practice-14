@@ -11,100 +11,98 @@
      gap-bottom: 102px;
 */
 
-
-
 /* COMMON */
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 .container {
-    width: 1138px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1138px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .news-page-block {
-    margin-top: 41px;
-    margin-bottom: 102px;
+  margin-top: 41px;
+  margin-bottom: 102px;
 }
 
 /* NEWS HEADER*/
 
 .news-header {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .news-header h1 {
-    margin-bottom: 44px;
-    font-size: 36px;
-    line-height: 48px;
+  margin-bottom: 44px;
+  font-size: 36px;
+  line-height: 48px;
 }
 
- .news-header time {
-    font-size: 12px;
-    line-height: 16px;
-    color: #959CAD;
- }
+.news-header time {
+  font-size: 12px;
+  line-height: 16px;
+  color: #959cad;
+}
 
- /* NEWS CONTENT*/
+/* NEWS CONTENT*/
 
- .news-content figure {
-    margin: 50px 0;
- }
+.news-content figure {
+  margin: 50px 0;
+}
 
- .news-content p {
-    font-size: 15px;
-    line-height: 20px;
-    color: #7D7E80;
-    margin: 20px 0;
- }
- 
- .news-content h2,
- .news-content .accent-text {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    margin: 40px 0;
-    color: #000;
- }
+.news-content p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #7d7e80;
+  margin: 20px 0;
+}
 
- .list {
-    font-size: 15px;
-    line-height: 20px;
-    color: #7D7E80;
-    margin: 40px 15px;    
- }
+.news-content h2,
+.news-content .accent-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 40px 0;
+  color: #000;
+}
 
- .items {
-    padding-left: 0;
- }
- 
- .item {
-    padding-bottom: 20px;
- }
+.list {
+  font-size: 15px;
+  line-height: 20px;
+  color: #7d7e80;
+  margin: 40px 15px;
+}
 
- .scroll {
-    color: #7D7E80;
-    font-size: 15px;
-    line-height: 20px;
- }
+.items {
+  padding-left: 0;
+}
 
- .paragraphs {
-    padding-left: 15px;
- }
+.item {
+  padding-bottom: 20px;
+}
+
+.scroll {
+  color: #7d7e80;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.paragraphs {
+  padding-left: 15px;
+}
 .paragraph {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .quote {
-    color: #000000;
-    font-size: 22px;
-    line-height: 32px;
-    font-style: italic;
-    margin: 32px 0;
+  color: #000000;
+  font-size: 22px;
+  line-height: 32px;
+  font-style: italic;
+  margin: 32px 0;
 }
