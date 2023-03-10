@@ -3,3 +3,4 @@
 - Live Server
 - Prettier
 - Stylelint
+- ESLint

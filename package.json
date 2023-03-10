@@ -4,9 +4,16 @@
   "scripts": {
     "dev": "node server.js",
     "format-code": "prettier --check --write \"public/**\"",
-    "lint-styles": "stylelint \"public/styles/**/*.css\" --fix"
+    "lint-styles": "stylelint \"public/styles/**/*.css\" --fix",
+    "lint-scripts": "eslint \"public/scripts/**/*.js\" --fix"
   },
   "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "live-server": "^1.1.0",
     "prettier": "^2.8.4",
     "stylelint": "^15.2.0",
