@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "node server.js",
+    "check-all": "npm run format-code && npm run lint-styles && npm run lint-scripts",
     "format-code": "prettier --check --write \"public/**\"",
     "lint-styles": "stylelint \"public/styles/**/*.css\" --fix",
     "lint-scripts": "eslint \"public/scripts/**/*.js\" --fix"
