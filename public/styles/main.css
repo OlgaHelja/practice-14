@@ -20,6 +20,7 @@ html {
 body {
   margin: 0;
 }
+
 .container {
   width: 1138px;
   margin-left: auto;
@@ -31,7 +32,7 @@ body {
   margin-bottom: 102px;
 }
 
-/* NEWS HEADER*/
+/* NEWS HEADER */
 
 .news-header {
   margin-bottom: 50px;
@@ -49,7 +50,7 @@ body {
   color: #959cad;
 }
 
-/* NEWS CONTENT*/
+/* NEWS CONTENT */
 
 .news-content figure {
   margin: 50px 0;
@@ -95,12 +96,13 @@ body {
 .paragraphs {
   padding-left: 15px;
 }
+
 .paragraph {
   margin: 20px 0;
 }
 
 .quote {
-  color: #000000;
+  color: #000;
   font-size: 22px;
   line-height: 32px;
   font-style: italic;

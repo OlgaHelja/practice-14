@@ -2,3 +2,4 @@
 
 - Live Server
 - Prettier
+- Stylelint
